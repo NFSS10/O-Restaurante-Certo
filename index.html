@@ -10,7 +10,7 @@
 
 <body>
     <main>
-        <div class="wheel-background">
+        <div id="wheel-background" class="wheel-background">
             <div id="wheel" class="wheel">
                 <div class="wheel-slot">
                     <div class="restaurant-name">Restaurant A</div>
@@ -34,6 +34,17 @@
     <script src="config.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/wheel.js"></script>
+    <script>
+        window.onload = function () {
+            const wheelBackgroundDiv = document.getElementById("wheel-background");
+            scaleWheelBackground(wheelBackgroundDiv);
+        };
+
+        window.onresize = function () {
+            const wheelBackgroundDiv = document.getElementById("wheel-background");
+            scaleWheelBackground(wheelBackgroundDiv);
+        };
+    </script>
 </body>
 
 </html>

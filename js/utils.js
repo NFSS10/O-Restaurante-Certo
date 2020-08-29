@@ -1,3 +1,11 @@
+function scaleWheelBackground(wheelBackgroundDiv) {
+    const scaleX = window.innerWidth / 2560;
+    const scaleY = window.innerHeight / 1440;
+
+    const scale = scaleX < scaleY ? scaleX : scaleY;
+    wheelBackgroundDiv.style.scale = scale;
+}
+
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
