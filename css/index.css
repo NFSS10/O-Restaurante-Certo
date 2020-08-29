@@ -12,6 +12,7 @@ body {
 
 .wheel-background > .wheel {
   position: relative;
+  width: 549px;
   top: -459px;
   left: 1572px;
 }
@@ -30,4 +31,16 @@ body {
 
 .wheel-background > .wheel > .wheel-slot > .restaurant-name {
   color: #ffffff;
+}
+
+.wheel-background > .button-spin-wheel {
+  position: absolute;
+  left: 1455px;
+  top: 109px;
+  width: 100px;
+  height: 100px;
+  background-color: #ff00ff;
+  color: #ffffff;
+  font-size: 30px;
+  cursor: pointer;
 }

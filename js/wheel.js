@@ -27,7 +27,7 @@ function wheelStep(topValue, velocity, timesUpdated, restaurants, restaurantName
     }, 0);
 }
 
-function turnWheel(wheel, restaurants) {
+function startWheelSpin(wheel, restaurants) {
     let velocity = 300;
 
     const restaurantNamesElements = [];
@@ -40,4 +40,14 @@ function turnWheel(wheel, restaurants) {
     updateSlotsOrder(restaurants, restaurantNamesElements, timesUpdated);
 
     wheelStep(topValue, velocity, timesUpdated, restaurants, restaurantNamesElements);
+}
+
+function spinWheel() {
+    const wheel = document.getElementById("wheel");
+    const restaurants = config.restaurants;
+
+    fillRestaurantsArray(restaurants);
+    shuffleArray(restaurants);
+
+    startWheelSpin(wheel, restaurants);
 }

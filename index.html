@@ -28,24 +28,12 @@
                     <div class="restaurant-name">Restaurant E</div>
                 </div>
             </div>
+            <div class="button-spin-wheel" onclick="spinWheel()">Spin the Wheel !</div>
         </div>
     </main>
     <script src="config.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/wheel.js"></script>
-    <script>
-        window.onload = function () {
-            const wheel = document.getElementById("wheel");
-            const restaurants = config.restaurants;
-
-            fillRestaurantsArray(restaurants);
-            shuffleArray(restaurants);
-
-            console.log(restaurants);
-
-            // turnWheel(wheel, restaurants);
-        };
-    </script>
 </body>
 
 </html>
