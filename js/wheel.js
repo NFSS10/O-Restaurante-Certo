@@ -19,7 +19,6 @@ function wheelStep(topValue, velocity, timesUpdated, restaurants, restaurantName
 
         wheel.style.top = `${topValue}px`;
 
-        console.log(velocity);
         if (velocity > 0) {
             velocity -= 1;
             wheelStep(topValue, velocity, timesUpdated, restaurants, restaurantNamesElements);

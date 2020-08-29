@@ -14,9 +14,9 @@ function shuffleArray(array) {
 }
 
 function fillRestaurantsArray(restaurants) {
-    if(restaurants.length === 0 ) return [];
+    if (restaurants.length === 0) return [];
 
-    while(restaurants.length < 4) {
+    while (restaurants.length < 4) {
         restaurants.push(restaurants[Math.floor(Math.random() * restaurants.length)]);
     }
 }
