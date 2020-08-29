@@ -30,13 +30,20 @@
             </div>
         </div>
     </main>
+    <script src="config.js"></script>
+    <script src="js/utils.js"></script>
     <script src="js/wheel.js"></script>
     <script>
         window.onload = function () {
-            const restaurants = ["1", "2", "3", "4", "5", "6", "7"];
             const wheel = document.getElementById("wheel");
+            const restaurants = config.restaurants;
 
-            turnWheel(wheel, restaurants);
+            fillRestaurantsArray(restaurants);
+            shuffleArray(restaurants);
+
+            console.log(restaurants);
+
+            // turnWheel(wheel, restaurants);
         };
     </script>
 </body>
