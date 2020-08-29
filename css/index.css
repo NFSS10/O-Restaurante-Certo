@@ -1,0 +1,33 @@
+body {
+  margin: 0px 0px 0px 0px;
+}
+
+.wheel-background {
+  background-image: url("../images/wheel_background.png");
+  background-size: 100% 100%;
+  width: 2560px;
+  height: 1440px;
+  overflow: hidden;
+}
+
+.wheel-background > .wheel {
+  position: relative;
+  top: -459px;
+  left: 1572px;
+}
+
+.wheel-background > .wheel > .wheel-slot {
+  background-image: url("../images/wheel_slot.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 549px;
+  height: 459px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wheel-background > .wheel > .wheel-slot > .restaurant-name {
+  color: #ffffff;
+}
