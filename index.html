@@ -11,7 +11,7 @@
 <body>
     <main>
         <div class="wheel-background">
-            <div class="wheel">
+            <div id="wheel" class="wheel">
                 <div class="wheel-slot">
                     <div class="restaurant-name">Restaurant A</div>
                 </div>
@@ -30,6 +30,15 @@
             </div>
         </div>
     </main>
+    <script src="js/wheel.js"></script>
+    <script>
+        window.onload = function () {
+            const restaurants = ["1", "2", "3", "4", "5", "6", "7"];
+            const wheel = document.getElementById("wheel");
+
+            turnWheel(wheel, restaurants);
+        };
+    </script>
 </body>
 
 </html>
