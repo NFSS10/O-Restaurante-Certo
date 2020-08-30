@@ -19,6 +19,7 @@ body {
   top: -459px;
   left: 1572px;
   cursor: pointer;
+  user-select: none;
 }
 
 .wheel-background > .wheel:hover {
