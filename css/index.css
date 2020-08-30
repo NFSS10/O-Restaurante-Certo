@@ -18,6 +18,15 @@ body {
   width: 549px;
   top: -459px;
   left: 1572px;
+  cursor: pointer;
+}
+
+.wheel-background > .wheel:hover {
+  box-shadow: 0px 0px 100px #f2e202d8;
+}
+
+.wheel-background > .wheel:active {
+  box-shadow: 0px 0px 100px #f2e202;
 }
 
 .wheel-background > .wheel > .wheel-slot {
@@ -49,16 +58,4 @@ body {
   position: absolute;
   top: 667px;
   left: 2050px;
-}
-
-.wheel-background > .button-spin-wheel {
-  position: absolute;
-  left: 1455px;
-  top: 109px;
-  width: 100px;
-  height: 100px;
-  background-color: #ff00ff;
-  color: #ffffff;
-  font-size: 30px;
-  cursor: pointer;
 }
