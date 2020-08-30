@@ -36,6 +36,12 @@ body {
   color: #ffffff;
 }
 
+.wheel-background > .pointer-tip {
+  position: absolute;
+  top: 667px;
+  left: 2050px;
+}
+
 .wheel-background > .button-spin-wheel {
   position: absolute;
   left: 1455px;
