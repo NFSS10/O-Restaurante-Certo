@@ -30,10 +30,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .wheel-background > .wheel > .wheel-slot > .restaurant-name {
-  color: #ffffff;
+  color: #f2e202;
+  /* font-size: 380px; */
+  font-size: 100px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 10px 10px 20px #000000;
+  padding: 35px 35px 35px 35px;
+  align-self: baseline;
+  margin: auto;
+  text-align: center;
 }
 
 .wheel-background > .pointer-tip {
