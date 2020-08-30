@@ -39,6 +39,10 @@
         window.onload = function () {
             const wheelBackgroundDiv = document.getElementById("wheel-background");
             scaleWheelBackground(wheelBackgroundDiv);
+
+            const wheel = document.getElementById("wheel");
+            const restaurants = config.restaurants;
+            updateSlotsOrder(restaurants, getRestaurantNamesElements(wheel), 0);
         };
 
         window.onresize = function () {

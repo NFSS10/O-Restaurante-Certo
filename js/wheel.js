@@ -29,10 +29,7 @@ function wheelStep(topValue, velocity, timesUpdated, restaurants, restaurantName
 function startWheelSpin(wheel, restaurants) {
     let velocity = 300;
 
-    const restaurantNamesElements = [];
-    for (let i = 0; i < wheel.children.length; i++) {
-        restaurantNamesElements.push(wheel.children[i].getElementsByClassName("restaurant-name")[0]);
-    }
+    const restaurantNamesElements = getRestaurantNamesElements(wheel);
 
     let topValue = -459;
     let timesUpdated = 0;

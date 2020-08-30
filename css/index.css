@@ -28,7 +28,6 @@ body {
   width: 549px;
   height: 459px;
   display: flex;
-  align-items: center;
   justify-content: center;
   overflow: hidden;
 }

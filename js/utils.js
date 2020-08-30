@@ -20,3 +20,12 @@ function fillRestaurantsArray(restaurants) {
         restaurants.push(restaurants[Math.floor(Math.random() * restaurants.length)]);
     }
 }
+
+function getRestaurantNamesElements(wheel) {
+    const restaurantNamesElements = [];
+    for (let i = 0; i < wheel.children.length; i++) {
+        restaurantNamesElements.push(wheel.children[i].getElementsByClassName("restaurant-name")[0]);
+    }
+
+    return restaurantNamesElements;
+}
