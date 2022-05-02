@@ -1,3 +1,3 @@
 const config = {
-    restaurants: ["BOP Café", "Bulha", "La Vie", "O Forno", "Portista", "Taberna do Doutor"]
+    restaurants: ["BOP Café", "Bulha", "La Vie", "Churrascaria", "Portista", "Taberna do Doutor"]
 }
