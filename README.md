@@ -1,5 +1,5 @@
 # O-Restaurante-Certo
-Porque já falamos nisto há bastante tempo 😄
+Porque já falamos nisto à bastante tempo 😄
 
 
 https://nfss10.github.io/O-Restaurante-Certo/
